@@ -1,27 +1,24 @@
- 
-/*
 
-//  Creating 3 x 3 Grid
+function createMemo(){//  Creating 3 x 3 Grid
     let rows = 3;
     let columns = 3;
     let gridArea = document.getElementById('memo-grid');
 
     // Create the grid dynamically
     for (let i = 0; i < rows; i++) {
-      for (let j = 0; j < columns; j++) {
+      for (let j = 0; j < rows; j++) {
+        for (let k = 0; k < columns; k++) {
         // Create a grid item element
-        let gridBox = document.createElement('div');
-        gridBox.className = 'grid-box';
-        gridBox.textContent = `Cell ${i + 1}-${j + 1}`;
+            let gridBox = document.createElement('div');
+            gridBox.className = 'grid-box';
+            gridBox.textContent = `${i}${j}${k}`;
 
         // Append the grid item to the grid container
         gridArea.appendChild(gridBox);
       }
     }
-
-
-    */
-
+  }
+}
 
 
 
