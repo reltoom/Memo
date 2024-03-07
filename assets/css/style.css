@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -6,4 +11,28 @@ main {
     border-color: black;
     border-style: solid;
     justify-content: center;
+
+}
+
+.small-grid {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    border-color: red;
+    border-style: solid;
+}
+
+.small-box {
+    height: 150px;
+    border-color: blue;
+    border-style: solid;
+    flex-basis: 31%;
+   
+    
+  
+}
+.small-img {
+    object-fit: cover;
+    width: 30%;
+    height: 30%;
 }
