@@ -1,0 +1,11 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+    border-color: black;
+    border-style: solid;
+    justify-content: center;
+}
+
+

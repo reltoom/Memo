@@ -1,3 +1,26 @@
+ 
+/*
+
+//  Creating 3 x 3 Grid
+    let rows = 3;
+    let columns = 3;
+    let gridArea = document.getElementById('memo-grid');
+
+    // Create the grid dynamically
+    for (let i = 0; i < rows; i++) {
+      for (let j = 0; j < columns; j++) {
+        // Create a grid item element
+        let gridBox = document.createElement('div');
+        gridBox.className = 'grid-box';
+        gridBox.textContent = `Cell ${i + 1}-${j + 1}`;
+
+        // Append the grid item to the grid container
+        gridArea.appendChild(gridBox);
+      }
+    }
+
+
+    */
 
 
 
@@ -15,11 +38,7 @@
 
 
 
-
-
-
-
-
+/*
 
 // Creating a table of images  2x3.....Not sure this will work.
 let memoBlock = [];
@@ -49,3 +68,4 @@ for (let i = 0; i < 3; i++) {
 
 gridBody.innerHTML = gridBodyHtml;
 document.body.appendChild(gameGrid);
+*/
