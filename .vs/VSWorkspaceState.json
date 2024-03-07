@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets"
+    "\\assets",
+    "\\assets\\css",
+    "\\assets\\favicon",
+    "\\assets\\javascript"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\assets\\favicon",
   "PreviewInSolutionExplorer": false
 }
