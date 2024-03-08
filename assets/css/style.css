@@ -1,3 +1,4 @@
+/*General main styles*/
 body {
     margin: 0;
     padding: 0;
@@ -11,28 +12,46 @@ main {
     border-color: black;
     border-style: solid;
     justify-content: center;
-
 }
-
+/*3 x 3 grid styles*/
 .small-grid {
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: center;
     border-color: red;
     border-style: solid;
+    perspective: 800px;
 }
 
 .small-box {
-    height: 100px;
+    height: 90px;
     border-color: blue;
     border-style: solid;
     flex-basis: 31%;
-   
-    
-  
+    transform: scale(1);
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
 }
-.small-img {
+
+.small-box:active {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+.small-box.flipped {
+    transform: rotateY(180deg);
+}
+
+.back-side, .front-side {
     object-fit: cover;
     width: 100%;
-    height:100%;
+    height: 90px;
+    backface-visibility: hidden;
+    position:absolute;
+}
+
+.front-side {
+    transform: rotateY(180deg);
+    cursor: not-allowed;
 }
