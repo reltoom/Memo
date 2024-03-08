@@ -29,6 +29,7 @@ function flip() {
     flippedBox = false;
     secondBox = this;
     doesItMatch();
+    playerWin();
 }
 
 //Check to see if flipped boxes match
@@ -54,7 +55,7 @@ function flipBackBoxes() {
         firstBox.classList.remove('flipped');
         secondBox.classList.remove('flipped');
         lockBox = false;
-    }, 1500);
+    }, 1100);
 }
 
 //Shuffle the location of the boxes 
@@ -63,4 +64,15 @@ function shuffle() {
         let randomize = Math.floor(Math.random() * 9);
         box.style.order = randomize;
     });
+}
+
+//Check to see if player has won, matched all pairs
+function playerWin() {
+    let allMatched = Array.from(smallBoxes).every((smallBoxes) =>
+        smallBoxes.classList.contains('flipped')
+    );
+
+    if (allMatched) {
+        window.alert('Congradulations! You win!');
+    }
 }
