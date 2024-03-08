@@ -28,11 +28,13 @@ main {
     height: 90px;
     border-color: blue;
     border-style: solid;
-    flex-basis: 31%;
+    flex-basis: 30%;
     transform: scale(1);
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.5s;
+    box-shadow: 2px 2px black;
+    padding: 1px;
 }
 
 .small-box:active {
@@ -59,6 +61,7 @@ main {
 
 #extra {
     pointer-events: none;
+    box-shadow: -2px 2px black;
 }
 
 /*Reset Button*/
