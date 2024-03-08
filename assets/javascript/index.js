@@ -68,8 +68,8 @@ function shuffle() {
 
 //Check to see if player has won, matched all pairs
 function playerWin() {
-    let allMatched = Array.from(smallBoxes).every((smallBoxes) =>
-        smallBoxes.classList.contains('flipped')
+    let allMatched = Array.from(smallBoxes).every((smallBox) =>
+        smallBox.classList.contains('flipped')
     );
 
     if (allMatched) {
