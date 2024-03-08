@@ -76,3 +76,14 @@ function playerWin() {
         window.alert('Congradulations! You win!');
     }
 }
+
+//Reset game to start again or play again
+function resetGame() {
+    startGame();
+    flippedBox = false;
+    lockBox = false;
+    smallBoxes.forEach((smallBox) => smallBox.classList.remove('flipped'));
+    let extraBox = document.getElementById('extra');
+    extraBox.classList.add('flipped');
+
+}

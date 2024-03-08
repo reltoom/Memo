@@ -21,6 +21,7 @@ main {
     border-color: red;
     border-style: solid;
     perspective: 800px;
+    background-color:lavender;
 }
 
 .small-box {
@@ -58,4 +59,12 @@ main {
 
 #extra {
     pointer-events: none;
+}
+
+/*Reset Button*/
+#resetGame {
+    position: absolute;
+    bottom: 20px;
+    background-color: lawngreen;
+    font:bold 30px arial, verdana;
 }
