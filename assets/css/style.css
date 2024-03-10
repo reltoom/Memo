@@ -123,6 +123,9 @@ main {
         height: 140px;
     }
     .large-grid > * {
-        height: 140px;
+        height: 120px;
+    }
+    .four_by_four {
+        height: 120px;
     }
     }
