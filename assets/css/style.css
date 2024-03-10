@@ -33,15 +33,11 @@ main {
 /*Common box styles*/
 .small-box {
     height: 90px;
-    border-color: blue;
-    border-style: solid;
     flex-basis: 30%;
     transform: scale(1);
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.5s;
-    box-shadow: 2px 2px black;
-    padding: 1px;
 }
 
 .small-box:active {
@@ -52,13 +48,16 @@ main {
 .small-box.flipped {
     transform: rotateY(180deg);
 }
-
+/*Image Class setting*/
 .back-side, .front-side {
     object-fit: cover;
     width: 100%;
     height: 90px;
     backface-visibility: hidden;
-    position:absolute;
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 2px 2px black;
 }
 
 .front-side {
@@ -76,16 +75,12 @@ main {
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: center;
-    border-color: red;
-    border-style: solid;
     perspective: 800px;
     background-color: lavender;
 }
 
 .large-grid > * {
     height: 90px;
-    border-color: blue;
-    border-style: solid;
     flex-basis: 22%;
     transform: scale(1);
     position: relative;
