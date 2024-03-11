@@ -103,7 +103,10 @@ function myAudio() {
 function toggleMute() {
     if (mute === false) {
         mute = true;
+        let sound = document.getElementById('sound');
+        sound.innerHTML = 'Sound Off';
     } else {
         mute = false;
+        sound.innerHTML = 'Sound On! ';
     }
 }
