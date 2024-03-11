@@ -91,6 +91,7 @@ function resetGame() {
 }
 //Audio function
 function myAudio() {
-    var audio = new Audio('../audio/cardflip.mp3');
-        audio.play();
+    var audio = new Audio('assets/audio/cardflip.mp3');
+    audio.play();
+    audio.playbackRate = 1.5;
 }
