@@ -2,7 +2,7 @@ let smallBoxes = document.querySelectorAll('.small-box');
 let flippedBox = false;
 let firstBox, secondBox;
 let lockBox = false;
-
+let mute = false;
 window.onload = startGame();
 
 
@@ -92,6 +92,18 @@ function resetGame() {
 //Audio function
 function myAudio() {
     var audio = new Audio('assets/audio/cardflip.mp3');
-    audio.play();
-    audio.playbackRate = 1.5;
+    if (mute === false) {
+        audio.play();
+        audio.playbackRate = 1.5;
+    } else {
+        return;
+    }
+}
+
+function toggleMute() {
+    if (mute === false) {
+        mute = true;
+    } else {
+        mute = false;
+    }
 }
