@@ -6,6 +6,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     background-color: rgba(254, 252, 71, 1);
+    padding: 5px;
 }
 
 /*Mute Button*/
@@ -154,6 +155,8 @@ h2, h3 {
     font-family: "Permanent Marker", cursive, sans-serif;
     font-size: 120%;
     color: #dd48f7;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 /*Media Queries*/
