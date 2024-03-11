@@ -104,7 +104,7 @@ h2, h3 {
     justify-content: space-around;
     align-content: center;
     perspective: 800px;
-    background-color: lavender;
+    background-color: rgba(234, 213, 255, 1);
 }
 
 .large-grid > * {
