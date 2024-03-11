@@ -261,7 +261,7 @@ h2, h3 {
 
         header {
             font-size: 180%;
-            margin-bottom: 0px;
+            margin-bottom: 2px;
         }
     }
     /*Media query min 1024px */
