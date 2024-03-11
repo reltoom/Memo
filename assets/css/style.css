@@ -8,6 +8,16 @@ header {
     background-color: rgba(254, 252, 71, 1);
 }
 
+/*Mute Button*/
+button {
+    background-color: rgba(221, 72, 247, 1);
+    color: rgba(254, 252, 71, 1);
+    font-size: 60%;
+    font-family: "Permanent Marker", cursive, sans-serif;
+    letter-spacing: 1px;
+    border-radius: 40% 40%;
+}
+
 body {
     margin-top: 10px;
     margin-bottom: 0;
