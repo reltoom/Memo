@@ -240,16 +240,16 @@ h2, h3 {
     @media screen and (orientation:landscape) {
         #home {
             position:absolute;
-            left: 100px;
+            left: 50px;
             bottom: 400px;
-            font-size: 300%;
+            font-size: 200%;
         }
 
         #play {
             position: absolute;
-            right: 100px;
+            right: 50px;
             bottom: 400px;
-            font-size: 300%;
+            font-size: 200%;
         }   
         
 
