@@ -23,8 +23,6 @@ main {
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: center;
-    border-color: red;
-    border-style: solid;
     perspective: 800px;
     
 }
@@ -35,12 +33,12 @@ main {
     transform: scale(1);
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 0.5s;
+    transition: transform 0.3s;
 }
 
 .small-box:active {
     transform: scale(0.9);
-    transition: transform 0.3s;
+    transition: transform 0.2s;
 }
 
 .small-box.flipped {
@@ -84,7 +82,7 @@ main {
     transform: scale(1);
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 0.5s;
+    transition: transform 0.3s;
     box-shadow: 2px 2px black;
     padding: 1px;
 }
@@ -255,8 +253,6 @@ main {
             width: 45%;
             margin-right: auto;
             margin-left: auto;
-            border-color: red;
-            border-style: solid;
             height: 95vh;
         }
 
@@ -266,7 +262,7 @@ main {
             transform: scale(1);
             position: relative;
             transform-style: preserve-3d;
-            transition: transform 0.5s;
+            transition: transform 0.3s;
             box-shadow: 2px 2px black;
             padding: 1px;
         }
