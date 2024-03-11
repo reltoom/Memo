@@ -1,7 +1,9 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Protest+Strike&display=swap');
 /*General main styles*/
 header {
     text-align: center;
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
 }
 
@@ -9,6 +11,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: lavender;
+    font-size: 200%;
+    font-family: "Permanent Marker", cursive, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #052bed;
 }
 
 main {
@@ -17,6 +24,11 @@ main {
     align-items: center;
     min-height: 90vh;
     justify-content: center;
+}
+
+a {
+    font-size: 80%;
+    color: #dd48f7;
 }
 /*3 x 3 grid style*/
 .small-grid {
@@ -107,7 +119,9 @@ main {
     margin-right: auto;
     margin-left: auto;
     background-color: lawngreen;
-    font: bold 30px arial, verdana;
+    font-family: "Permanent Marker", cursive, sans-serif;
+    font-size: 120%;
+    color: #dd48f7;
 }
 
 /*Media Queries*/
