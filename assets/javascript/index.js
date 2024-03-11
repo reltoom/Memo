@@ -23,11 +23,13 @@ function flip() {
     if (!flippedBox) {
         flippedBox = true;
         firstBox = this;
+        myAudio();
         return;
     }
     //second click
     flippedBox = false;
     secondBox = this;
+    myAudio();
     doesItMatch();
     playerWin();
 }
@@ -86,4 +88,9 @@ function resetGame() {
     let extraBox = document.getElementById('extra');
     extraBox.classList.add('flipped');
 
+}
+//Audio function
+function myAudio() {
+    var audio = new Audio('../audio/cardflip.mp3');
+        audio.play();
 }
