@@ -3,6 +3,10 @@ let flippedBox = false;
 let firstBox, secondBox;
 let lockBox = false;
 let mute = false;
+//Modal
+let modal = document.getElementById('myModal');
+let span = document.getElementsByClassName('close');
+
 window.onload = startGame();
 
 
@@ -75,7 +79,7 @@ function playerWin() {
     );
 
     if (allMatched) {
-        window.alert('Congradulations! You win!');
+        modal.style.display = 'block';
     }
 }
 
@@ -114,5 +118,15 @@ function toggleMute() {
     } else {
         mute = false;
         sound.innerHTML = 'Sound On! ';
+    }
+}
+
+span.onclick = function () {
+    modal.style.display = 'none';
+}
+
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = 'none';
     }
 }
