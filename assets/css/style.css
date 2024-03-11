@@ -30,6 +30,13 @@ a {
     font-size: 80%;
     color: #dd48f7;
 }
+
+p {
+    font-size: 50%;
+    text-align: center;
+    padding:0px;
+   
+}
 /*3 x 3 grid style*/
 .small-grid {
     flex-flow: row wrap;
