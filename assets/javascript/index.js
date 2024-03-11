@@ -87,7 +87,13 @@ function resetGame() {
     smallBoxes.forEach((smallBox) => smallBox.classList.remove('flipped'));
     let extraBox = document.getElementById('extra');
     extraBox.classList.add('flipped');
+}
 
+function resetGame2() {
+    startGame();
+    flippedBox = false;
+    lockBox = false;
+    smallBoxes.forEach((smallBox) => smallBox.classList.remove('flipped'));
 }
 //Audio function
 function myAudio() {
