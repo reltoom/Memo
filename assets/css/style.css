@@ -5,12 +5,13 @@ header {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+    background-color: rgba(254, 252, 71, 1);
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: lavender;
+    background-color: rgba(234, 213, 255, 1);
     font-size: 200%;
     font-family: "Permanent Marker", cursive, sans-serif;
     font-weight: 400;
@@ -28,14 +29,25 @@ main {
 
 a {
     font-size: 80%;
-    color: #dd48f7;
+    color: rgba(221, 72, 247, 1);
 }
 
 p {
     font-size: 50%;
     text-align: center;
-    padding:0px;
-   
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(254, 252, 71, 1);
+}
+h2, h3 {
+    margin: 0px;
+    font-size: 85%;
+    color: rgba(221, 72, 247, 1);
+    background-color: rgba(254, 252, 71, 1);
+}
+#front_page {
+    margin: 0px;
+    min-height: 80vh;
 }
 /*3 x 3 grid style*/
 .small-grid {
@@ -125,7 +137,7 @@ p {
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    background-color: lawngreen;
+    background-color: rgba(254, 252, 71, 1);
     font-family: "Permanent Marker", cursive, sans-serif;
     font-size: 120%;
     color: #dd48f7;
