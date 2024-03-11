@@ -9,7 +9,10 @@ header {
 }
 
 body {
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    margin-left: 10px;
     padding: 0;
     background-color: rgba(234, 213, 255, 1);
     font-size: 200%;
@@ -162,6 +165,10 @@ h2, h3 {
         height: 105px;
     }
 
+    #front_page {
+        font-size: 120%;
+    }
+
 }
 /*Media query min 412px and up*/
 @media only screen and (min-width: 412px) {
@@ -179,6 +186,14 @@ h2, h3 {
 
     .four_by_four {
     height: 120px;
+    }
+    
+    #front_page {
+        font-size: 150%;
+    }
+
+    header {
+        font-size: 130%;
     }
 }
 /*Media query min 540px and up*/
@@ -198,6 +213,14 @@ h2, h3 {
     .four_by_four {
         height: 135px;
     }
+
+    #front_page {
+        font-size: 140%;
+    }
+
+    header {
+        font-size: 120%;
+    }
 }
     /*Media query min 768px and up*/
     @media only screen and (min-width: 768px) {
@@ -215,6 +238,14 @@ h2, h3 {
 
         .four_by_four {
             height: 210px;
+        }
+
+        #front_page {
+            font-size: 200%;
+        }
+
+        header {
+            font-size: 180%;
         }
     }
     /*Media query min 1024px */
@@ -234,6 +265,14 @@ h2, h3 {
         .four_by_four {
             height: 260px;
         }
+
+        #front_page {
+            font-size: 260%;
+        }
+
+        header {
+            font-size: 240%;
+        }
     }
 
     /* Media query Landscape */
@@ -242,14 +281,14 @@ h2, h3 {
             position:absolute;
             left: 50px;
             bottom: 400px;
-            font-size: 200%;
+            font-size: 100%;
         }
 
         #play {
             position: absolute;
             right: 50px;
             bottom: 400px;
-            font-size: 200%;
+            font-size: 100%;
         }   
         
 
@@ -303,5 +342,14 @@ h2, h3 {
         .four_by_four {
             width: 100%;
             height: 170px;
+        }
+
+        /*Front page text*/
+        #front_page {
+            font-size: 200%;
+        }
+
+        header {
+            font-size: 180%;
         }
     }
