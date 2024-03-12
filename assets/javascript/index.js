@@ -5,7 +5,6 @@ let lockBox = false;
 let mute = false;
 //Modal
 let modal = document.getElementById('myModal');
-let span = document.getElementsByClassName('close');
 
 window.onload = startGame();
 
@@ -120,14 +119,14 @@ function toggleMute() {
         sound.innerHTML = 'Sound On! ';
     }
 }
-
-window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = 'none';
-    }
-}
+//Modal close
 var myWin = document.getElementById('myModal');
 myWin.onclick = function () { close() };
 function close() {
     myWin.style.display = 'none';
+}
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = 'none';
+    }
 }
