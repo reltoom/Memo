@@ -213,18 +213,18 @@ Win message pops up on player completion of a game mode and can be closed.
 ![Validator Test Hard Mode](assets/readmeimages/lighthouse3.png)
 
 ### Bugs
-Here are some of the bugs that came up during development. 
+Here are some, but not all, of the bugs that were fixed during development. 
 
 | Bug | Fix |
 | :--- | :--- |
-| Background images not showing when deployed. | Changed relative pathing to URL pathing ( "https://reltoom.github.io/Project-1-Relax/assets/images/mainbackground.jpg"))  |
-| Text overflowing from background after border radius was entered. | Added padding of 10px or 15px where necessary to text container. |
-| Submit from the newsletter form did not send user to the 'Thank You' page, gave error. | In the 'form' tag changed 'method' from 'post' to 'get'.
-| Footer was moving up or down depending on content. | Used flex to add footer into correct space and then made the 'body' have a min-height of 100vh.|
+| Boxes for the game areas not aligning properly | Commented out lines of CSS code and reapplied them one by one. |
+| Sound Button not working | Googled javascript code for muting, read several sites and put it into code. Trial and error until it worked. |
+| Not being able to close the pop up win message | Googled ways to close a modal pop up and tested several varients.
+| Boxes not flipping when clicked | Doubled checked CSS and javascript function to make sure right elements were selected for flipping|
 
-Whenever I discovered a bug, I would go back to the course material and re-read the section to better understand. If that did not help me, I used Google to search for more info on the topic or possible solutions. If efter this I still was not able to solve an issue, I asked my brother form help ( he works as a programmer). He would point out what was causing the issues and from there I was able to figure out a solution.
+There was alot of back and forth with the writing of several lines of code, saving, running and re-writing. For some functions to work, all 3 elements had to be right, HTML, CSS and Javascript. Rereading course material and Googling that same material to better grasp the concepts was needed. 
 
-There are no unsolved bugs.
+There are no unsolved errors.
 - - -
 
 ## Credits
