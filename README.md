@@ -134,19 +134,19 @@ There is a 'reset' button at the bottom of the page to play again or to just res
 
 ### Languages 
 
-HTML & CSS were used in the making of Ways to Relax.
+HTML, CSS & Javascript were used in the making of Kidz Memo.
 
 ###  Websites & Programs 
 
 * [Balsamiq](https://balsamiq.com/) - Created wireframes for basic outline and structure of site.
 * [Github](https://github.com/) - Created repository and stored files here after commits.
 * [Microsoft Visual Studio](https://visualstudio.microsoft.com/) - Wrote code and did commits to Github from here.
-* [Google Fonts](https://fonts.google.com/) - Imports fonts for website.
+* [Google Fonts](https://fonts.google.com/) - Imported font for Kidz Memo.
 * [Google Developer Tools](https://developer.chrome.com/docs/devtools) - For viewing in different screen resolutions and finding errors.
-* [TinyPNG](https://tinypng.com/) Compressed background images.
-* [Favicon.io](https://favicon.io/) Created the 'R' favicon for webbrowser.
-* [W3 School](https://www.w3schools.com/) Read and understand code.
-* [UI.dev Am I Responsive](https://ui.dev/amiresponsive) Used to get image on all different devices.
+* [TinyPNG](https://tinypng.com/) Compressed images for better performance.
+* [Favicon.io](https://favicon.io/) Created the 'Memo' favicon for the webbrowser.
+* [W3 School](https://www.w3schools.com/) Read and used as a guide for some code.
+* [UI.dev Am I Responsive](https://ui.dev/amiresponsive) Used to get image of all different devices.
 - - -
 
 ## Deployment 
@@ -161,7 +161,7 @@ To Deploy the site from GitHub Pages:
 4. Under 'Branch', choose 'Main' from the first dropdown menu.
 5. From the second dropdown menu, with the image of a folder, choose 'root', then save.
 
-![Deployment Steps](readmeimages/deploy.png)
+![Deployment Steps](assets/readmeimages/deploy.png)
 
 #### How to Fork
 
