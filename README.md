@@ -93,6 +93,9 @@ The whole site is responsive and works just as well on mobile phones as desktop 
 
 * The Main area holds the rules, descriptions of game modes and the game areas.
 
+* When a player complete a game by matching all the pairs, a win message will pop up. This can be closed by clicking anywhere on the message.
+![Win Message On The Completion Of A Game](assets/readmeimages/winmessage.png)
+
 #### The Home Page
 
 The home page of 'Kidz Memo' has the main header and then game rules and descriptions.
@@ -100,42 +103,30 @@ The home page of 'Kidz Memo' has the main header and then game rules and descrip
 ![Home Page Image](assets/readmeimages/rules.png)
 ![Home Page Image](assets/readmeimages/gamemodes.png)
 
-
 #### The Easy Mode
-The header in the game mode holds links to the home page as well as the other game mode. It also has the Sound On/Off button.
+
+The header in this game mode holds links to the home page as well as the other game mode. It also has the Sound On/Off button.
 ![Header Easy Mode](assets/readmeimages/header2.png)
 
-The Easy Mode version of the game is a 3 by 3 square. It includes one extra piece as 4 pairs of 2 is 8 blocks, so the 9th block is to fill the grid, it is unclickable.
-![Easy Mode](assets/readmeimages/game3x3.png)
+The Easy Mode version of the game is a 3 by 3 square. It includes one extra piece as 4 pairs is 8 blocks, so the 9th block is to fill the grid, it is unclickable.
+![Easy Mode Showing Backface Of Cards](assets/readmeimages/game3x3.png)
+![Easy Mode All Pictures Visable](assets/readmeimages/easycomplete.png)
 ![Easy Mode](assets/readmeimages/extrapiece.png)
 
 There is a 'reset' button at the bottom of the page to play again or to just reset the game board if you want.
 ![Reset Button](assets/readmeimages/resetbutton.png)
-#### The Watsu Page
 
-The first section on this page describes what Watsu is and what are the benefits of Watsu.
+#### The Hard Mode
 
-![What is Watsu and some Benefits](readmeimages/whatiswatsu.png)
+The header in this game mode holds links to the home page as well as the other game mode. It also has the Sound On/Off button.
+![Header Hard Mode](assets/readmeimages/header3.png)
 
-Next, three different Watsu excersises are displayed. A short description of the excersise and some of the benefits followed by a picture of it in practice.
+The Hard Mode version of the game is a 4 by 4 square. It has 8 pairs for a total of 16 blocks.
+![Hard Mode Showing Backface Of Cards](assets/readmeimages/game4x4.png)
+![Hard Mode All Pictures Visable](assets/readmeimages/hardcomplete.png)
 
-![Watsu Excersise - Pressure Point Massage](readmeimages/watsumassage.png)
-
-Lastly on the Watsu page, in the bottom right corner of the footer is a credit from where the images for Watsu are taken.
-
-![Footer Section with credit for Watsu images](readmeimages/watsucredit.png)
-
-#### The Newsletter-Sign Up Page
-
-On this page the user can sign up for a weekly newsletter from Ways to Relax. In this input form, the user is required to Enter a name and email address. Optional is a textarea where the user can tell more about themselves and their favorite way to relax. Pushing the 'Subscribe' button will take the user to the 'Thank You' page. The form itself is centered on a picture of a paper surrounded by sand and stones.
-
-![Newsletter-Sign Up Form With Background Image](readmeimages/signup.png)
-
-#### The Thank You Page
-
-After subscribing to the 'Ways to Relax' newsletter, the user is taken to a page showing 'Thank you for subscribing to our newsletter!'. From here, the user can click any of the links in the header to return to the site.
-
-![Thank You Page](readmeimages/thankyou.png)
+There is a 'reset' button at the bottom of the page to play again or to just reset the game board if you want.
+![Reset Button](assets/readmeimages/resetbutton.png)
 
 - - -
 
