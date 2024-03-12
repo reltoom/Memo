@@ -1,12 +1,10 @@
 # Kidz Memo
 
-!Kidz Memo shown on a variety of screen sizes](readmeimages/responsive.png)
+![Kidz Memo shown on a variety of screen sizes](assets/readmeimages/responsive.png)
 
-Visit the deployed site here: [Ways to Relax - Mind, Body & Soul](https://reltoom.github.io/Project-1-Relax/)
+Visit the deployed site here: [Kidz Memo](https://reltoom.github.io/Memo/)
 
-This site brings information about how to relax ones mind, body and soul. Follow along and read what the benefits of certain techniques are and how to do them. 
-Yoga has spread worldwide and is being used by thousands of people to help them relax and strengthen their bodies. 
-Watsu is relatively new form of relaxation/physical rehab that is done with another person in a pool of warm water.
+This site is a memory game for kids. It has bright, fun colors and the memory 'cards' are drawn by a child. There are 2 game difficulties, easy and hard. On easy, the player needs to match 4 pairs of cards and on hard, the player needs to match 8 pair of cards.
 
 
 ## CONTENTS
