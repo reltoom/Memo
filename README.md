@@ -185,15 +185,15 @@ If you want to clone this repository:
 
 ## Testing
 
-Ways to Relax has been tested on: Chrome, Microsoft Edge and Safari.
+Kidz Memo has been tested on: Chrome, Microsoft Edge and Safari(Reset button does not cover full bottom of page).
 
 With Dev Tools all standard screen sizes were tested to make sure the site looks good and is still readable. 
 
-I had a couple of friends and my brothers test the website on their mobile phone just to make sure that it was not only working locally with me.
+I had a couple of friends, my brothers, and my daughter test the game and check user error possiblities.
 
-Links in the main menu take the user where expected. Links in the footer take you to the appropriate social media site.
+Links in the main menu take the user to correct game modes. Sound On/Off works correctly. Reset Button works correctly by reshuffling the whole game board.
 
-The newsletter-sign up form requires a name and email address and when submitted, correctly takes the user to the 'Thank You' page.
+Win message pops up on player completion of a game mode and can be closed.
 
 ## Validator Test
 
