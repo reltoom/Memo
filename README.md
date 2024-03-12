@@ -52,6 +52,7 @@ This site is a memory game for kids. It has bright, fun colors and the memory 'c
 ## Design
 
 Using the images of my daughters drawings for the game was a deliberate style choice. Each of her pictures had different dimensions(width and heigth) so it was very difficult to adjust the images so they would be centered and show full image. I could have chosen a more fluid or easier to crop image, but I thought having a child's drawing as the art for Kidz Memo would add layer of excitment and wonder for kids. Maybe they could get their drawings into the game?
+
 ### Color Scheme
 
 I wanted the color scheme to happy, fun and bright. Something to draw a kids attention to it.
@@ -250,6 +251,7 @@ Audio clip is from [Free Sound](https://freesound.org/).
 Images for the Memo game are drawn by my daughter.
 
 ### Acknowledgments
+
 Thank you to my daughter and wife for helping support me through my studies.
 
 Thank you to the Swedish Slack channel for keeping my spirits high.
