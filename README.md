@@ -71,51 +71,46 @@ One type of font from Google Fonts was used for this site.
 
 ### Future Implementations
 
-1. Add descriptions of how to do each pose in the Yoga page.
-2. Create a new page for Mindfulness with similar layout that the user is used to.
-3. Add a 'Nearby You' section where you can locate Yoga or other forms of relaxation via Googlemaps.
+1. Add a moves counter to see how many 'turns' it takes to win.
+2. Adding a timer to see how long it takes to win a game.
+3. Different pictures for the 'cards' and even bigger game area.
 
 - - -
 
 ## Features
 
-Ways to Relax consists of a home page, a 'Yoga' page, a 'Watsu' page, a 'Sign up for our Newsletter' page & a 'Thank you' for subscribing page.
+Kidz Memo has a 'home' page, 'easy mode' page and 'hard mode' page.
 
 The whole site is responsive and works just as well on mobile phones as desktop screens.
 
-* There is a 'R' favicon in the browser tab for 'Relax'.
+* The word 'Memo'is writen in font-style and color scheme used for the site as the favicon.
 
-  ![favicon](readmeimages/rfavicon.png)
+  ![favicon](assets/readmeimages/faviconreadme.png)
 
-* The Header section includes the title: 'Ways to Relax - Mind, Body & Soul' as well as links to each of the other pages: 'Home', 'Yoga', 'Watsu' & 'Newsletter-Sign Up'. This is present on all pages of the site.
+* The Header section includes the title: 'Kidz Memo' as well as links to the game modes  and Sound On/Off button.
+    ![Sound Button On](assets/readmeimages/soundon.png)
+    ![Sound Button Off](assets/readmeimages/soundoff.png)
 
-  ![Ways to Relax Title and Header](readmeimages/header.png)
-
-* The Footer section has links to Facebook, Youtube and Instagram (to the main site, not attached to actual accounts). Visible on all pages of the site.
- 
-  ![Footer Section](readmeimages/footer.png)
+* The Main area holds the rules, descriptions of game modes and the game areas.
 
 #### The Home Page
 
-The home page of 'Ways to Relax' highlights some of the many benefits of relaxing your body, mind & soul.
+The home page of 'Kidz Memo' has the main header and then game rules and descriptions.
+![Main Header](assets/readmeimages/header1.png)
+![Home Page Image](assets/readmeimages/rules.png)
+![Home Page Image](assets/readmeimages/gamemodes.png)
 
-![Home Page Image](readmeimages/homepage.png)
 
+#### The Easy Mode
+The header in the game mode holds links to the home page as well as the other game mode. It also has the Sound On/Off button.
+![Header Easy Mode](assets/readmeimages/header2.png)
 
-#### The Yoga Page
+The Easy Mode version of the game is a 3 by 3 square. It includes one extra piece as 4 pairs of 2 is 8 blocks, so the 9th block is to fill the grid, it is unclickable.
+![Easy Mode](assets/readmeimages/game3x3.png)
+![Easy Mode](assets/readmeimages/extrapiece.png)
 
-At the top of the Yoga page, the benefits of yoga are stated.
-
-![Benefits of Yoga](readmeimages/benefitsyoga.png)
-
-Next, the site shortly describes five different types of yoga: Yin Yoga, Vinyasa Yoga, Ashtanga Yoga, Yin Yang Yoga and Yoga Nidra.
-
-![Different Types of Yoga one of which is: Ashtanga](readmeimages/yogatype.png)
-
-A wide variety of Yoga positions are shown in the Yoga Positions section. Each pose comes with a short description of what benefits can be attained through that pose as well as an image of the pose so it is easier for you to do it yourself.
-
-![Sample Yoga Position - the Goddess Pose and description](readmeimages/yogapose.png)
-
+There is a 'reset' button at the bottom of the page to play again or to just reset the game board if you want.
+![Reset Button](assets/readmeimages/resetbutton.png)
 #### The Watsu Page
 
 The first section on this page describes what Watsu is and what are the benefits of Watsu.
