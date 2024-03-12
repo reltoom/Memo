@@ -198,15 +198,19 @@ Win message pops up on player completion of a game mode and can be closed.
 ## Validator Test
 
 * HTML
-    * Using the [W3C Validator](https://validator.w3.org/#validate_by_input), code was checked for each webpage to see if there were any errors.
-    ![W3C HTML Test](readmeimages/noerrorshtml.png)
+    * Using the [W3C Validator](https://validator.w3.org/#validate_by_input), code was checked for each webpage of Kidz Memo to see if there were any errors. There were no errors.
+    ![W3C HTML Test](assets/readmeimages/htmlvalidator.png)
 * CSS
-    * Using the [W3C Validator] (https://jigsaw.w3.org/css-validator/) the code for CSS was checked for errors.
-    ![W3C CSS Test](readmeimages/validatorcss.png)
+    * Using the [W3C Validator](https://jigsaw.w3.org/css-validator/) the code for CSS was checked for errors, there were none.
+    ![W3C CSS Test](assets/readmeimages/cssvalidator.png)
+* Javascript
+    * Using the [JShint Validator](https://jshint.com/) we analyzed the Javascript code. There are no errors but 17 warnings, most of which are :'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 * Accessibility 
-    * Using the Lighthouse dev tool from Chrome; accessibitly, performace, best practices and SEO were tested.
-
-![Validator Test](readmeimages/lighthouse.png)
+    * Using the Lighthouse dev tool from Chrome; accessibitly, performace, best practices and SEO were tested for each page.
+    
+![Validator Test Home Page](assets/readmeimages/lighthouse1.png)
+![Validator Test Easy Mode](assets/readmeimages/lighthouse2.png)
+![Validator Test Hard Mode](assets/readmeimages/lighthouse3.png)
 
 ### Bugs
 Here are some of the bugs that came up during development. 
