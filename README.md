@@ -41,28 +41,27 @@ This site is a memory game for kids. It has bright, fun colors and the memory 'c
 
 #### First Time Visitor Goals
 
-* Easy to understand what the site is about or for.
-* Easy to navigate and understand where links will go.
-* Easy to follow lay out for comprehsion of site.
-* Sign Up for newsletter works.
+* Easy to understand what game you will play and how.
+* Easy to navigate and start a game.
+* Easy to reset the game after winning.
 
 #### Returning Visitor Goals
 
 * Layout is the same as before.
-* Information is updated or expanded to provide new forms of relaxing or new techniques.
+* Trying to beat the game modes faster than before.
 
 ## Design
 
 ### Colour Scheme
 
-I wanted the color scheme to reflect natural colors and such that are related to relaxation. Calm and soothing tons reflecting sand or ground with green for plants and black for hightlights.
+I wanted the color scheme to happy, fun and bright. Something to draw a kids attention to it.
+* `Rgba(234, 213, 255, 1)`A light lavender type is used as the primary background color the whole site.
+* `Rgba(221, 72, 247, 1)`A shade of purple is used for Links, headers, text for reset button and background for Sound On/Off button.
+* `Rgba(254, 252, 71, 1)`A shade of dark yellow is used for the main header background and main text background. It is also the background of the reset button and the text of the Sound On/Off button.
+* `Rgba(5, 43, 237, 1)`A shade of royal blue is used for the name of the site, Kidz Memo, and then the text for rules and game modes.
 
-* `Antiquewhite` is used as the primary background color for the header section and text areas.
-* `Darkgreen` is used for text areas, links in the header & footer and labels for the signup form.
-* `Tan` is used for the general background color of the whole page.
-* `Black` is used for the title and other headings.
 
-  ![Ways to Relax Color Choice](readmeimages/colors.png)
+  ![Kidz Memo](assets/readmeimages/colorscheme.png)
 
 ### Typography
 
