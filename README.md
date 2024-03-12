@@ -52,7 +52,7 @@ This site is a memory game for kids. It has bright, fun colors and the memory 'c
 
 ## Design
 
-### Colour Scheme
+### Color Scheme
 
 I wanted the color scheme to happy, fun and bright. Something to draw a kids attention to it.
 * `Rgba(234, 213, 255, 1)`A light lavender type is used as the primary background color the whole site.
@@ -65,11 +65,9 @@ I wanted the color scheme to happy, fun and bright. Something to draw a kids att
 
 ### Typography
 
-Two differenet fonts from Google Fonts were used for this site.
+One type of font from Google Fonts was used for this site.
 
-* For all titles or headings (black text) [Protest Strike](https://fonts.google.com/specimen/Protest+Strike?query=protest+strike) was used. This is a bolder style with smooth curves and easy readablilty. 
-
-* All text areas (darkgreen text - exception is links and labels) have [Protest Riot](https://fonts.google.com/specimen/Protest+Riot?query=protest+riot). This is a smooth quill like style which reminded me of calligraphy.
+* For text, Kidz Memo uses [Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker). This seemed like a fun 'marker' style that a kid could use. 
 
 ### Future Implementations
 
