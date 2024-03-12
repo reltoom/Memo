@@ -30,7 +30,6 @@ This site is a memory game for kids. It has bright, fun colors and the memory 'c
    * [Bugs](#bugs)
 * [Credits](#credits)
   * [Code Used](#code-used)
-  * [Content](#content)
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
@@ -52,6 +51,7 @@ This site is a memory game for kids. It has bright, fun colors and the memory 'c
 
 ## Design
 
+Using the images of my daughters drawings for the game was a deliberate style choice. Each of her pictures had different dimensions(width and heigth) so it was very difficult to adjust the images so they would be centered and show full image. I could have chosen a more fluid or easier to crop image, but I thought having a child's drawing as the art for Kidz Memo would add layer of excitment and wonder for kids. Maybe they could get their drawings into the game?
 ### Color Scheme
 
 I wanted the color scheme to happy, fun and bright. Something to draw a kids attention to it.
@@ -74,6 +74,7 @@ One type of font from Google Fonts was used for this site.
 1. Add a moves counter to see how many 'turns' it takes to win.
 2. Adding a timer to see how long it takes to win a game.
 3. Different pictures for the 'cards' and even bigger game area.
+4. Get kids to send in their own drawings for Kidz Memo art.
 
 - - -
 
@@ -147,6 +148,7 @@ HTML, CSS & Javascript were used in the making of Kidz Memo.
 * [Favicon.io](https://favicon.io/) Created the 'Memo' favicon for the webbrowser.
 * [W3 School](https://www.w3schools.com/) Read and used as a guide for some code.
 * [UI.dev Am I Responsive](https://ui.dev/amiresponsive) Used to get image of all different devices.
+
 - - -
 
 ## Deployment 
@@ -213,6 +215,7 @@ Win message pops up on player completion of a game mode and can be closed.
 ![Validator Test Hard Mode](assets/readmeimages/lighthouse3.png)
 
 ### Bugs
+
 Here are some, but not all, of the bugs that were fixed during development. 
 
 | Bug | Fix |
@@ -225,11 +228,13 @@ Here are some, but not all, of the bugs that were fixed during development.
 There was alot of back and forth with the writing of several lines of code, saving, running and re-writing. For some functions to work, all 3 elements had to be right, HTML, CSS and Javascript. Rereading course material and Googling that same material to better grasp the concepts was needed. 
 
 There are no unsolved errors.
+
 - - -
 
 ## Credits
 
 ### Code Used
+
 Most of the code I wrote myself with a lot of trial and error, saving and viewing on web browser. 
 
 For the structure of the functions for the game I followed [Paddy Walshes Project](https://github.com/paddyw11/Paddy-walsh-project-2b).
@@ -238,17 +243,15 @@ For the modal pop up I followed code from [W3School](https://www.w3schools.com/h
 
 Structure for the README file is from my project [Ways to Relax](https://github.com/reltoom/Project-1-Relax) adjusted to fit Kidz Memo.
 
-### Content
-
 ### Media
+
 Audio clip is from [Free Sound](https://freesound.org/).
 
 Images for the Memo game are drawn by my daughter.
 
-
-
-
 ### Acknowledgments
 Thank you to my daughter and wife for helping support me through my studies.
+
 Thank you to the Swedish Slack channel for keeping my spirits high.
+
 Thank you to my mentor from CI, Precious, for giving me advice and guidelines on the project.
