@@ -232,7 +232,12 @@ There are no unsolved errors.
 ### Code Used
 Most of the code I wrote myself with a lot of trial and error, saving and viewing on web browser. 
 
-Structure for the README file is from [Ways to Relax](http) adjusted to fit my project.
+For the structure of the functions for the game I followed [Paddy Walshes Project](https://github.com/paddyw11/Paddy-walsh-project-2b).
+
+For the modal pop up I followed code from [W3School](https://www.w3schools.com/howto/howto_css_modals.asp).
+
+Structure for the README file is from my project [Ways to Relax](https://github.com/reltoom/Project-1-Relax) adjusted to fit Kidz Memo.
+
 ### Content
 
 ### Media
@@ -244,7 +249,6 @@ Images for the Memo game are drawn by my daughter.
 
 
 ### Acknowledgments
-Thank you to 
-
-
+Thank you to my daughter and wife for helping support me through my studies.
+Thank you to the Swedish Slack channel for keeping my spirits high.
 Thank you to my mentor from CI, Precious, for giving me advice and guidelines on the project.
