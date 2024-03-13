@@ -17,17 +17,20 @@
     <title>Kidz Memo</title>
 </head>
 <body>
+    <!--Links to Home and Easy Mode, Sound Button-->
     <header>
         <a href="index.html" id="home">Home</a>
         <a href="3x3.html" id="play">Play Easy</a>
         <button type="button" onclick="toggleMute()" id="sound">Sound On!</button>
     </header>
+    <!--Modal Popup Message on Win Condition-->
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span onclick="close()">X</span>
             <p>Yay! You matched all the pairs and Won!</p>
         </div>
     </div>
+    <!--Game Grid Area 4x4-->
     <main class="large-grid">
         <div class="small-box" title="1">
             <img src="assets/images/backface.jpg" class="back-side four_by_four" alt="bla image, backside of card">
@@ -94,9 +97,10 @@
             <img src="assets/images/squishy.jpg" class="front-side four_by_four" alt="drawn squishmellow image">
         </div>
     </main>
+    <!--Reset Button-->
     <button type="button" id="resetGame" onclick="resetGame2()">Reset</button>
     <footer>
     </footer>
     <script src="assets/javascript/index.js"></script>
-    </body>
+</body>
 </html>
