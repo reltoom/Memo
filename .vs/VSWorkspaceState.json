@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\assets",
+    "\\assets\\css",
     "\\assets\\javascript",
     "\\assets\\readmeimages"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\assets\\javascript\\index.js",
   "PreviewInSolutionExplorer": false
 }
