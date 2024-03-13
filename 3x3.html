@@ -18,16 +18,19 @@
 </head>
 <body>
     <header>
+        <!--Links to Home and Hard Mode, Sound Button-->
         <a href="index.html" id="home">Home</a>
         <a href="4x4.html" id="play">Play Hard</a>
         <button type="button" onclick="toggleMute()" id="sound">Sound On!</button>
     </header>
+    <!--Modal Popup Message on Win Condition-->
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span onclick="close()">X</span>
             <p>Yay! You matched all the pairs and Won!</p>
         </div>
     </div>
+    <!--Game Grid Area 3x3-->
     <main class="small-grid">
         <div class="small-box" title="1">
             <img src="assets/images/backface.jpg" class="back-side" alt="bla image, backside of card">
@@ -61,13 +64,15 @@
             <img src="assets/images/backface.jpg" class="back-side" alt="bla image, backside of card">
             <img src="assets/images/heartsmiley.jpg" class="front-side" alt="drawn heart smiley image">
         </div>
+        <!--Extra Box to Make Game Grid a 3 by 3 Even Box-->
         <div class="small-box flipped" id="extra">
             <img src="assets/images/stars.jpg" class="front-side" alt="drawn stars and moons in a circular pattern">
         </div>
     </main>
+    <!--Reset Button-->
     <button type="button" id="resetGame" onclick="resetGame()">Reset</button>
     <footer>
     </footer>
     <script src="assets/javascript/index.js"></script>
-    </body>
+</body>
 </html>
